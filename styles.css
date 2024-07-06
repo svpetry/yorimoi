@@ -2,17 +2,27 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: black;
+    overflow: hidden;
 }
 
-.background-image {
-    background-image: url('img/background.jpg');
+.blurred-background {
+    background-image: url('img/antarctica.jpg');
     height: 100%;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-size: cover;
+    filter: blur(8px);
+    position: fixed;
+    z-index: -1;
+}
+
+.foreground-image {
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
