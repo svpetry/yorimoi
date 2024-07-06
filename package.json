@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": ".\\node_modules\\.bin\\http-server.cmd"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
