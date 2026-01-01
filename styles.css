@@ -97,7 +97,9 @@ body, html {
     background: #2c539e;
 }
 
-.crunchyroll img,
-.myanimelist img {
+.crunchyroll img{
     filter: brightness(0) invert(1);
+}
+
+.myanimelist img {
 }
