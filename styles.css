@@ -103,3 +103,14 @@ body, html {
 
 .myanimelist img {
 }
+
+.japanese {
+    background: #fff;
+    padding: 10px 14px;
+}
+
+.japanese svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
